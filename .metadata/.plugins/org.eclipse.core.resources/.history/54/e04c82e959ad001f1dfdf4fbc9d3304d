@@ -1,0 +1,31 @@
+package Project;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.PrintStream;
+
+public class FileReading {
+
+	public static void main(String[] args) throws IOException {
+		try {
+		
+		FileOutputStream fin = new FileOutputStream("‪D://read.txt");
+		
+		//int i=fin.read();
+		//System.out.println((char)i);
+		//fin.close();
+		String s="Welcome to javaTpoint";
+		byte b[]=s.getBytes();
+		 fin.write(b);
+		fin.close();
+		System.out.println("success");
+	}catch(Exception e) {
+		System.out.println(e);
+		}
+
+		
+
+	}
+
+

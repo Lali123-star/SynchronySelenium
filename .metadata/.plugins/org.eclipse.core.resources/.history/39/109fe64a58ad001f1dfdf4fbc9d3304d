@@ -1,0 +1,23 @@
+package Project;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class FileReading {
+
+	public static void main(String[] args) throws IOException {
+		
+		FileInputStream fin = new FileInputStream("C://Users//Public//Documents//ACP_AGENT_RequestedApps");
+		
+		//int i=fin.read();
+		//System.out.println((char)i);
+		//fin.close();
+		int i=0;
+		while ((i=fin.read())!=-1) {
+			System.out.println((char)i);
+		}
+		
+
+	}
+
+}

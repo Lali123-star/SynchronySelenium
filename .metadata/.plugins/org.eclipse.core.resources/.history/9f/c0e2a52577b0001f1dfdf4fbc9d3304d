@@ -1,0 +1,21 @@
+package com.syncehron.selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class GetMethods {
+
+	public static void main(String[] args) {
+		WebDriverManager.firefoxdriver().setup();
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://practicetestautomation.com/practice-test-login/");
+	driver.getCurrentUrl();
+	System.out.println();
+	String title =driver.getTitle();
+	System.out.println(title);
+	driver.navigate().back();
+	}
+
+}

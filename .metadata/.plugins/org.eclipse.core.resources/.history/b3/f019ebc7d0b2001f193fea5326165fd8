@@ -1,0 +1,19 @@
+
+
+<suite name="Suite1" verbose="1">
+  <test name="UI Automation">
+  
+  <groups>
+  <run>
+  <include name ="Regression"/>
+  <include name ="sanity"/>
+  </run>
+  </groups>
+    <classes>
+       <class name="Synchron.SeleniumTestNg.Testcase2"/>
+       <class name="Synchron.SeleniumTestNg.Testcase3"/>
+       
+    </classes>
+  </test>
+
+</suite>

@@ -1,0 +1,30 @@
+package newproject1;
+import java.util.*;
+
+public class newclass {
+	
+	public void m1() {
+		System.out.println("Hello world");
+	}
+	
+	public static void m2(int a){
+		System.out.println("The number is "+a);
+	}
+public static void main(String args[]) {
+		
+		int a;
+		Scanner Sc = new Scanner(System.in);
+		System.out.println("Enter the number");
+		a=Sc.nextInt();
+		
+		/*while(a<6) {
+			System.out.println(a);
+			a++;
+		
+		}*/
+		newclass n1=new newclass();
+		n1.m1();
+		m2(a);
+					
+	}
+}

@@ -1,0 +1,14 @@
+package Synchron.SeleniumTestNg;
+
+import org.testng.annotations.Test;
+
+import com.beust.jcommander.Parameter;
+
+public class Parameters {
+	@Test
+	@Parameter("browser")
+	public void launchbrowser() {
+		
+	}
+
+}

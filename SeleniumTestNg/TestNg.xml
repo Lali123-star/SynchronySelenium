@@ -1,0 +1,13 @@
+
+
+<suite name="Functional tests suite">parallel = "methods" thread-count="2">
+  <parameter name="browser" value ="edge"/>
+  <test name ="sanity bucket">
+  
+    <classes>
+       <class name="Synchron.SeleniumTestNg.ParallelExcutionEg"/>
+       
+    </classes>
+  </test>
+
+</suite>

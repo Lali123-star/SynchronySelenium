@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Javatech/src/global.properties&apos; to &apos;Global.properties&apos;" description="Rename resource &apos;global.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/global.properties" name="Global.properties" stamp="1728450509875" updateReferences="true"/>
+</session>

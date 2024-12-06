@@ -1,0 +1,22 @@
+package Lists;
+
+import java.util.Iterator;
+import java.util.TreeSet;
+
+public class TreeEG {
+
+	public static void main(String[] args) {
+		TreeSet<String> t= new TreeSet<>();
+		
+	t.add("dyd");
+	t.add("hgy");
+	Iterator itr=t.iterator();
+	while(itr.hasNext()) {
+	
+		System.out.println(itr.hasNext());
+
+	}
+
+	}
+}
+

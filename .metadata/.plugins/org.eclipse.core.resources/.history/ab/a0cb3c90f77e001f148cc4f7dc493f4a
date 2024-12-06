@@ -1,0 +1,22 @@
+package basicjava;
+
+public class Car {
+
+	 String model;
+	 int price;
+	 String colour;
+	
+	public static void main(String[] args) {
+
+ Car c = new Car();
+ c.model = "Audi";
+ c.colour = "Red";
+ c.price = 980000;
+ 
+ System.out.println("model of the car is"+c.model);
+ System.out.println("colour of the car is"+c.colour);
+ System.out.println("price of the car is"+c.price);
+
+	}
+
+}

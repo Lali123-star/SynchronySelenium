@@ -1,0 +1,24 @@
+package AccessModifier1;
+
+public class File1 {
+	public String S1="New delhi";
+	public int zipcode = 5664;
+	private String address ="St peters road";
+	protected String city="Banaglore";
+	String BU="Testing";
+
+	public static void main(String[] args) {
+		File1 obj =new File1();
+		System.out.println(obj.S1);
+		System.out.println(obj.zipcode);
+		System.out.println(obj.address);
+		System.out.println(obj.city);
+		System.out.println(obj.BU);
+		
+		
+		
+		
+
+	}
+
+}
